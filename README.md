@@ -22,6 +22,8 @@ Added summarization for long contexts to keep responses concise and efficient.
 
 🧠 Prompt Engineering
 
+ also adding logging with start and end timr
+
 Improved prompts to increase accuracy and reduce unnecessary output.
 
 🔮 Future Enhancements
