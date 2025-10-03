@@ -10,7 +10,7 @@ Key Improvements
 
 Switched Models
 
-Replaced Mistral with LLaMA for better performance on CPU.
+Replaced LLaMA  with Mistral  for better performance on CPU.
 
 Fine-Tuned Parameters
 
@@ -23,3 +23,11 @@ Added summarization for long contexts to keep responses concise and efficient.
 Prompt Engineering
 
 Improved prompts to increase accuracy and reduce unnecessary output.
+
+Future Enhancements
+
+Smart Chunking: Implement intelligent document splitting to improve retrieval accuracy and context management.
+
+Caching: Store and reuse frequent queries to reduce response time even further.
+
+Model Fine-Tuning: Train the model on 5,000 question–answer pairs generated from a larger model (e.g., ChatGPT), using Unsloth on Google Colab for efficient fine-tuning.
