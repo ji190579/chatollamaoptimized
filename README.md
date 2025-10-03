@@ -1,11 +1,25 @@
+Arxiv RAG Bot – Enhanced Version
 
-the original notebook  was pulled from https://github.com/Hadi-Kassem/Arxiv-RAG-bot/blob/main/main.ipynb
+This project is based on the original notebook:
+Hadi-Kassem/Arxiv-RAG-bot
 
-adding some enahcments to be fasster on my cpu windows 16 ram,CORE I7 so time response is  now 10 to 15 and ut was aroudn 2 minutes
-1-used llama instead of mistart
-2-fine tuneing paranmeters(temperature,num_predict)
-3-used smart context to summatize long context
-4-some propmt enginierring
+I’ve added several enhancements to make it run significantly faster on my local machine (Windows, 16 GB RAM, Intel Core i7).
+Response time is now 10–15 seconds, compared to the original ~2 minutes.
 
+Key Improvements
 
-    "num_predict": 150,#,        # Longer technical answers
+Switched Models
+
+Replaced Mistral with LLaMA for better performance on CPU.
+
+Fine-Tuned Parameters
+
+Adjusted temperature and num_predict for faster and more relevant responses.
+
+Smart Context Handling
+
+Added summarization for long contexts to keep responses concise and efficient.
+
+Prompt Engineering
+
+Improved prompts to increase accuracy and reduce unnecessary output.
